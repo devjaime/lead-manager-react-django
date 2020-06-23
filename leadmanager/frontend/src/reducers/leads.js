@@ -1,6 +1,6 @@
 import { GET_LEADS } from '../actions/types.js';
 const initialState = {
-    lead: []
+    leads: []
 }
 
 export default function(state = initialState, action) {
